@@ -58,8 +58,20 @@ Với nền tảng HTML, CSS và JavaScript vững chắc, bạn đã sẵn sàn
 
 ---
 
+#### Bài 2: Xây dựng layout cho các trang web sau
+2.1
+![alt text](images/image-7.png)
 
-#### Bài 2: Xây dựng trang web với nội dung sau
+2.2
+![alt text](images/image-4.png)
+
+2.3
+![alt text](images/image-5.png)
+
+2.4
+![alt text](images/image-6.png)
+
+#### Bài 3: Xây dựng trang web với nội dung sau
 
 Gợi ý:
     - Sử dụng thẻ `div`, `span`
@@ -67,7 +79,7 @@ Gợi ý:
 
 ![alt text](images/image.png)
 
-#### Bài 3: Xây dựng trang web với nội dung sau
+#### Bài 4: Xây dựng trang web với nội dung sau
 
 Gợi ý:
     - Sử dụng thẻ `div`
@@ -77,12 +89,12 @@ Gợi ý:
 
 ![alt text](images/image-1.png)
 
-#### Bài 4: Xây dựng trang web với nội dung sau
+#### Bài 5: Xây dựng trang web với nội dung sau
 [Link ảnh](https://drive.google.com/drive/u/0/folders/1PKjbJFNkKGJa0IPhQgPUwgFyndzp9SFk)
 
 ![alt text](images/image-2.png)
 
-#### Bài 5: Xây dựng trang web với nội dung sau
+#### Bài 6: Xây dựng trang web với nội dung sau
 [Link ảnh](https://drive.google.com/drive/u/0/folders/1vCdajXqxpAx-3-bGsQIqe7RTEcKI-7yw)
 
 ![alt text](images/image-3.png)
