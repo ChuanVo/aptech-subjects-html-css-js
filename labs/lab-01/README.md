@@ -75,7 +75,7 @@ Với nền tảng HTML, CSS và JavaScript vững chắc, bạn đã sẵn sàn
 
 Gợi ý:
     - Sử dụng thẻ `div`, `span`
-    - Sử dụng thuộc tính `style`
+    - Sử dụng thuộc tính `color`, `font-size`
 
 ![alt text](images/image.png)
 
@@ -83,8 +83,9 @@ Gợi ý:
 
 Gợi ý:
     - Sử dụng thẻ `div`
-    - Sử dụng thuộc tính `style`
     - Sử dụng `margin` và `padding`
+    - Sử dụng `text-align` và `font-size`
+    - Sử dụng `color` và `background-color`
 
 
 ![alt text](images/image-1.png)
