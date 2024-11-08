@@ -1,4 +1,4 @@
-# HTML-CSS-JS@Lab-01
+# HTML-CSS-JS@Lab-02
 
 #### Bài 1: Thiết kế trang web với nội dung và định dạng sau
 ![alt text](images/bai1.png)
