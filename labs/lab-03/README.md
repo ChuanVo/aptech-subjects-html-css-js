@@ -295,3 +295,9 @@ animation: name duration timing-function delay iteration-count direction fill-mo
 
 #### Bài 1: Thiết kế trang web với nội dung sau
 ![alt text](image.png)
+
+**Yêu cầu:**
+1. Bấm nút `Reset` thì sẽ reset toàn bộ nội dung trong form
+1. Field `Password` luôn phải có dữ liệu thì mới bấm `Submit` được
+1. Bấm vào nút `Submit` sẽ gửi nội dung đến page bài 3 của lab02 theo phương thức `POST`
+1. Bấm vào nút `Submit` sẽ gửi nội dung đến page bài 3 của lab02 theo phương thức `GET`
