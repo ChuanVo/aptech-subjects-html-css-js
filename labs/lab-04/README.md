@@ -2,12 +2,19 @@
 
 #### Bài 1: Biến và hằng số
 a. Khởi tạo biến a có gía trị bằng 10 và in ra màn hình console
+
 b. Khởi tạo biến b có giá trị bằng ‘10’ và in ra màn hình console
+
 c. Thay đổi giá trị của biến a thành 20 và in kết quả ra màn hình
+
 d. Khởi tạo hằng số pi = 3.14 và in ra màn hình console
+
 e. Thay đổi hằng số pi=5 và in ra màn hình console
+
 f. Khởi tạo object điện thoại, với các thuộc tính sau: ten = iPhone 14, hangSanXuat = Apple, mauSac = Trang, gia = 1000USD và in ra màn hình console
+
 g. Thay đổi giá của điện thoại từ 1000USD thành 750USD và in ra màn hình console
+
 h. Thay đổi tên của điện thoại từ iPhone 14 thành iPhone 14 promax in ra màn hình console
 
 #### Bài 2: Toán tử
