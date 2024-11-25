@@ -45,8 +45,9 @@ e. Viết hàm kiểu tra một kí tự là nguyên âm hay phụ âm
 f. Viết hàm tìm nghiệm của phương trình bậc hai: `ax^2 + bx + c = 0` (Với a, b và c là 2 tham số được truyền vào hàm)
 - Nếu a và b cùng bằng 0 thì phương trình vô nghiệm.
 - Nếu a=0 thì phương trình có một nghiệm là (-c/b).
-- Nếu b2-4ac < 0, thì phương trình vô nghiệm.
+- Nếu b^2-4ac < 0, thì phương trình vô nghiệm.
 - Nếu không, phương trình có hai nghiệm, dùng công thức tính nghiệm để tính.
+
 Lưu ý: Hàm tính căn bậc 2 trong js là: `Math.sqrt()`
 
 g. Viết hàm tính thuế thu nhập và lương NET của nhân viên:
@@ -54,19 +55,21 @@ g. Viết hàm tính thuế thu nhập và lương NET của nhân viên:
 - 15% thuế thu nhập nếu lương trên 15 triệu đến 20 triệu
 - 10% thuế thu nhập nếu lương từ 9 triệu đến 15 triệu
 - 0% thuế thu nhập nếu lương dưới 9 triệu
+
 Lưu ý: Tiền lương của nhân viên (Lương GROSS) sẽ được nhập vào từ tham số của hàm
 
 
 #### Bài 4: Cấu trúc rẽ nhánh `Switch-Case`
 a. Viết hàm nhập một số từ 1 tới 12 sau đó in ra màn hình tên tháng tương ứng.
-     - Lưu ý: Nếu số nhập vào < 1 hoặc lớn hơn 12 thì phải thông báo lỗi
+
+Lưu ý: Nếu số nhập vào < 1 hoặc lớn hơn 12 thì phải thông báo lỗi
 
 b. Viết hàm nhập vào số điểm theo thang điểm 100 và in ra xếp loại theo chữ cái với logic sau:
-    - 90 – 100: Hạng A+
-    - 80 – 89: Hạng A
-    - 70 – 79: Hạng B
-    - 60 – 69: Hạng C
-    - Dưới 60: Hạng D
+- 90 – 100: Hạng A+
+- 80 – 89: Hạng A
+- 70 – 79: Hạng B
+- 60 – 69: Hạng C
+- Dưới 60: Hạng D
 
 c. Viết hàm nhập 2 số và 1 phép toán (+, -, *, /) tính giá trị của của số với phép toán tương ứng.
 
