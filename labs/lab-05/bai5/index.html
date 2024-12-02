@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 5: Trắc Nghiệm Tương Tác</title>
+  <style>
+    /* CSS nội bộ */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .quiz-container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 90%;
+      max-width: 600px;
+      padding: 20px;
+      text-align: center;
+    }
+    .quiz-container h1 {
+      margin-bottom: 20px;
+    }
+    .question {
+      text-align: start;
+      margin: 20px 0;
+    }
+    .option-item {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    }
+    .answer {
+      display: block;
+      margin: 10px;
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .btn:hover {
+      background-color: #218838;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Bài Trắc Nghiệm</h1>
+    <p class="question">Câu hỏi 1: HTML là viết tắt của cụm từ nào?</p>
+    <div class="option-item">
+        <input type="radio" id="q1a1" name="q1" class="answer" value="sai">
+        <label for="q1a1">Hyperlinks and Text Markup Language</label>
+    </div>
+
+    <div class="option-item"> 
+        <input type="radio" id="q1a2" name="q1" class="answer" value="dung">
+        <label for="q1a2">Hypertext Markup Language</label>
+    </div>
+
+    <div class="option-item">
+        <input type="radio" id="q1a3" name="q1" class="answer" value="sai">
+        <label for="q1a3">Home Tool Markup Language</label>
+    </div>
+
+    <button class="btn" onclick="checkAnswer()">Nộp Bài</button>
+    <p class="result" id="result"></p>
+  </div>
+</body>
+</html>

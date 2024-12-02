@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý danh sách sản phẩm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      width: 90%;
+      max-width: 800px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .form-group input, .form-group textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-group textarea {
+      resize: none;
+    }
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .btn:hover {
+      background-color: #218838;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    table th {
+      background-color: #f2f2f2;
+    }
+    .edit-btn, .delete-btn {
+      background-color: #ffc107;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .delete-btn {
+      background-color: #dc3545;
+    }
+    .edit-btn:hover {
+      background-color: #e0a800;
+    }
+    .delete-btn:hover {
+      background-color: #c82333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Quản Lý Sản Phẩm</h1>
+    <div class="form-group">
+      <label for="productName">Tên sản phẩm</label>
+      <input type="text" id="productName" placeholder="Nhập tên sản phẩm">
+    </div>
+    <div class="form-group">
+      <label for="productPrice">Giá sản phẩm (VND)</label>
+      <input type="number" id="productPrice" placeholder="Nhập giá sản phẩm">
+    </div>
+    <div class="form-group">
+      <label for="productDescription">Mô tả sản phẩm</label>
+      <textarea id="productDescription" rows="3" placeholder="Nhập mô tả sản phẩm"></textarea>
+    </div>
+    <button class="btn" onclick="addProduct()">Thêm sản phẩm</button>
+
+    <table id="productTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Tên sản phẩm</th>
+          <th>Giá (VND)</th>
+          <th>Mô tả</th>
+          <th>Hành động</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Danh sách sản phẩm sẽ được thêm vào đây -->
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
