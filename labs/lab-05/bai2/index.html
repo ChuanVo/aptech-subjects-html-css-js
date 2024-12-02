@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài 2: Đổi Màu Nền</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      transition: background-color 1s;
+      text-align: center;
+    }
+    .button {
+      margin-top: 20%;
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body id="body">
+  <button class="button" onclick="changeBackground()">Đổi màu nền</button>
+
+  <script>
+    function changeBackground() {
+
+      let colorArr = ['red', 'blue', 'green']
+      let doDaiMang = colorArr.length
+
+
+      let viTriNgauNhien = Math.floor(Math.random() * doDaiMang - 1) + 0
+
+      console.log('viTriNgauNhien: ', viTriNgauNhien)
+
+      let mauBackground = colorArr[viTriNgauNhien]
+
+      let phanTuBody = document.getElementById('body')
+
+      phanTuBody.style.background = mauBackground
+
+    }
+  </script>
+</body>
+</html>
